@@ -1,5 +1,5 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
+import Button from '@/components/ui/button'; // Updated import
 
 export default function HowToPlay() {
   return (
@@ -25,6 +25,5 @@ export default function HowToPlay() {
         </Button>
       </Link>
     </div>
-  )
+  );
 }
-
